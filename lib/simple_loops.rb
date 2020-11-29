@@ -14,3 +14,14 @@ def loop_message_n_times(message = "hello world", number = 10)
     counter += 1
   end
 end
+
+quote = ["be happy", "you are amazing", "i love you"]
+def output_array(quote)
+  counter = 0 
+  while quote[counter] do
+    puts quote[counter]
+    counter +=1 
+  end
+end
+
+
