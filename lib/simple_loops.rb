@@ -24,7 +24,7 @@ def output_array(quote)
   end
 end
 
-quote = ["be happy", "you are amazing", "i love you"]
+quote = ["5", "4", "3", "2", "1"]
 def return_string_array(quote)
   count = 0 
   while count < quote.length do
