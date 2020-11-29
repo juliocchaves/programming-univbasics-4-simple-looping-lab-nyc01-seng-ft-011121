@@ -24,4 +24,12 @@ def output_array(quote)
   end
 end
 
+quote = "be happy", "you are amazing", "i love you"
+def return_string_array(quote)
+  count = 0 
+  while count < quote.length do
+    count +=1 
+  end
+end
+
 
