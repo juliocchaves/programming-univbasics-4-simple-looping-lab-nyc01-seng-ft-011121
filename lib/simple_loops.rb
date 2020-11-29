@@ -27,10 +27,12 @@ end
 quote = ["5", "4", "3", "2", "1"]
 def return_string_array(quote)
   count = 0 
+  new_array = []
   while count < quote.length do
-    quote[count].to_s
+    new_array.push(quote[count].to_s)
     count +=1 
   end
+  new_array
 end
 
 
