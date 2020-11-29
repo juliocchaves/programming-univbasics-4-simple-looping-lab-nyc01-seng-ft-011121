@@ -7,7 +7,7 @@ def loop_message_five_times(message = "Hello world")
   end
 end
 
-def loop_message_n_times([message = "hello world", 10])
+def loop_message_n_times([message = "hello world", number = 10])
   counter = 0 
   while counter <= [1] do
     puts message
