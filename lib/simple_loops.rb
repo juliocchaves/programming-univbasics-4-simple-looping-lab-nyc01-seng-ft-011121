@@ -28,6 +28,7 @@ quote = ["5", "4", "3", "2", "1"]
 def return_string_array(quote)
   count = 0 
   while count < quote.length do
+    quote[count].to_s
     count +=1 
   end
 end
